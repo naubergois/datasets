@@ -1,0 +1,17 @@
+{
+  "name": "israel-cities",
+  "version": "1.0.0",
+  "description": "Return all the cities in Israel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yoni Goldberg",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^0.7.1-5",
+    "microtime": "^2.1.8",
+    "pretty-error": "^2.1.1",
+    "weather-js": "^2.0.0"
+  }
+}

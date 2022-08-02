@@ -1,0 +1,92 @@
+{
+  "name": "nodepractices",
+  "version": "1.0.0",
+  "description": "[✔]: assets/images/checkbox-small-blue.png",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./examples/async-programming/excercise-2.1-travel-recommend/final.js",
+    "test": "mocha **/test.unit*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i0natan/nodebestpractices.git"
+  },
+  "author": "Yoni Goldberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i0natan/nodebestpractices/issues"
+  },
+  "homepage": "https://github.com/i0natan/nodebestpractices#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.147",
+    "benchmark": "^2.1.4",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.18",
+    "body-parser": "1.19.0",
+    "clarifai": "^2.9.1",
+    "cookie-parser": "1.4.4",
+    "countries": "^0.1.1",
+    "country-data": "0.0.31",
+    "country-list": "^2.2.0",
+    "date-holidays": "^1.4.7",
+    "express": "^4.17.1",
+    "jsonschema": "^1.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.2",
+    "loadtest": "^3.0.9",
+    "lodash": "^4.17.15",
+    "microtime": "^3.0.0",
+    "passport": "0.4.0",
+    "passport-cookie": "1.0.6",
+    "passport-http-bearer": "1.0.1",
+    "pg": "^7.12.1",
+    "pretty-error": "2.1.1",
+    "progress": "^2.0.3",
+    "reverse-string": "0.0.6",
+    "sanitize-html": "^1.20.1",
+    "socket.io": "^2.3.0",
+    "swagger-jsdoc": "3.4.0",
+    "swagger-ui-dist": "3.24.2",
+    "terminal-kit": "^1.31.7",
+    "uuid": "^3.3.3",
+    "weather-js": "^2.0.0",
+    "which-country": "^1.0.0",
+    "x-ray": "^2.3.4"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "eslint": "6.6.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-mocha": "6.2.1",
+    "eslint-plugin-node": "10.0.0",
+    "eslint-watch": "6.0.1",
+    "faker": "4.1.0",
+    "fs": "0.0.2",
+    "https": "1.0.0",
+    "license-checker": "25.0.1",
+    "mocha": "6.2.2",
+    "nodemon": "1.19.4",
+    "nyc": "14.1.1",
+    "sinon": "^7.5.0",
+    "supertest": "4.0.2"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99,
+    "include": [
+      "**/services/examples/test-basics/orderService.js",
+      "**/services/examples/test-basics/orderAPI.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "cache": true,
+    "all": true
+  }
+}
