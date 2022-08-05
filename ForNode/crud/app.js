@@ -19,6 +19,30 @@ var express = require('express');
 var app = express();
 
 
+app.post('/', function(req, res) {
+var entry, id, response;
+
+console.log(req);
+if (req.query.name && req.query.price) {
+id = req.query.id;
+entry = {};
+entry[id] = {
+id : id,
+name: req.query.name, price: req.query.price };
+products[id] = entry[id];
+response = {
+code: 201,
+message: 'created product',
+products: [entry]
+}; } else {
+response = {
+code: 1000,
+message: 'missing parameter. required: name, price.' }
+}
+res.json(response); });
+
+
+
 
 app.get('/', function(req, res) {
 var productArray =
