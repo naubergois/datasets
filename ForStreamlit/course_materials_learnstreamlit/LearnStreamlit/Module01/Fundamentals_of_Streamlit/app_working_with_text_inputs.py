@@ -1,5 +1,5 @@
 # Core Pkgs
-import streamlit as st 
+import streamlit as st
 
 # Text Input
 fname = st.text_input("Enter Firstname")
@@ -19,44 +19,3 @@ myappointment = st.date_input("Appointment")
 
 # Time Input
 mytime = st.time_input("My Time")
-
-
-# Color Picker
-color = st.beta_color_picker("Select Color")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
