@@ -26,6 +26,8 @@ or:
 
 [![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/vitejs)
 
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/mui/material-ui/tree/master/examples/vitejs)
+
 ## The idea behind the example
 
 This example uses [Vite.js](https://github.com/vitejs/vite).
